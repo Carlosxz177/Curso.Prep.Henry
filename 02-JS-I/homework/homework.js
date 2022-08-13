@@ -10,7 +10,7 @@ const nuevoNum = 128;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5;
+const nuevaResta = 10 > 5 === true;
 
 
 // Resuelve el siguiente problema matemático:
