@@ -110,7 +110,7 @@ function obtenerResto(x, y) {
   var producto = x / y;
   return producto;
  }
- obtenerResto(8 / 2);
+ 
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
