@@ -75,13 +75,13 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
  
-  if (str1 === str2) {
-   var nombre = str1 
-   var cactus = str2
-  } else (str1 > str2);{
+ } if (tienenMismaLongitud(10,10)) {
    
-  }
-}
+  } else (10 > 10);{
+
+  } 
+
+  
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
