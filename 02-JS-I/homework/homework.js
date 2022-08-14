@@ -37,34 +37,34 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return suma(1 + 1)
+  return 1 + 1
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return resta(5 - 5)
+  return 5 - 5
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return multiplica(2 * 2)
+  return 2 * 2
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return divide(21 / 5)
+  return 21 / 5
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (10 == 10) {
+  if (10 === 10) {
     console.log("Es correcto");
-  } else ("x < y o x > y"); {
+  } else ((x < y) , (x > y)); {
     console.log("No es correcto");
   }
 
