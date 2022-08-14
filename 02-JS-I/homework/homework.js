@@ -75,10 +75,11 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
- console.log(10 === 10);
- console.log(10 > 10);
- console.log(10 < 10);
- return 10 === 10;
+ if (str1 === str2){
+  return true;
+ }
+ return false;
+
 }
   
 
@@ -86,9 +87,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-console.log(25 < 90);
-  return 25 < 90;
+if (num < 90){
+  return true;
+}
+  return false;
 }
 
 function mayorQueCincuenta(num) {
