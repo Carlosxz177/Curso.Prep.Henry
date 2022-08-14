@@ -75,12 +75,12 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
  
- } if (str1 === str2) {
+  if (40 === 40) {
    
-  } else (str1 > str2);{
+  } else (40 > 40);{
 
   } 
-
+}
   
 
 function menosQueNoventa(num) {
