@@ -88,9 +88,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-}if (num < 90){
+}if (21 < 90){
    
-  } else(num > 90); {
+  } else(21 > 90); {
    
 
   }
