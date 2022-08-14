@@ -75,10 +75,10 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
  
-  if(5 , 5) {
-   str1 === str2 
-  } else (5,5);{
-   str1 > str2
+  if (str1 === str2) {
+   
+  } else (str1 > str2);{
+   
   }
 }
 
