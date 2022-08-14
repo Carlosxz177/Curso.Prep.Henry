@@ -74,11 +74,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1 === str2) {
-str1 = 10
-str2 = 10
-  } else(str1 > str2);{
-
+ 
+  if(5 , 5) {
+   str1 === str2 
+  } else (5,5);{
+   str1 > str2
   }
 }
 
@@ -88,9 +88,9 @@ function menosQueNoventa(num) {
   // Tu código:
   
   if (num){
-   num === 10
+   num === num;
   } else(num); {
-   num > 10
+   num > num;
 
   }
   
