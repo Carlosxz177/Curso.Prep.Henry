@@ -107,11 +107,10 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  if(21 % 5)
-  {
-  return obtenerResto
-}
+  var producto = x / y;
+  return producto;
  }
+ obtenerResto(8 / 2);
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
