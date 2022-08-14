@@ -75,13 +75,13 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
- if ("str" === "str"){
+ if (5 == 5){
   return true;
  }
  return false;
 
 }
-  
+  tienenMismaLongitud(5);
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
