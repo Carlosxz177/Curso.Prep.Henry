@@ -78,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
  } if (10 === 10) {
    tienenMismaLongitud(10,10)
   } else (10 > 10);{
-
+tienenMismaLongitud(10,10)
   } 
 
   
