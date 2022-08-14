@@ -10,7 +10,7 @@ const nuevoNum = 128;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 0 === -10 ;
+const nuevaResta = 10 - 0 === 10 ;
 
 
 // Resuelve el siguiente problema matemático:
@@ -74,9 +74,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 === str2) {
+  if (5 === 5) {
 
-  } else (str1 > str2);{
+  } else (5 > 5);{
 
   }
 }
@@ -85,9 +85,9 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90){
+  if (25 < 90){
 
-  } else(num >= 90); {
+  } else(25 > 90); {
 
   }
   
