@@ -76,8 +76,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
  
  } if (str1 === str2) {
-   var str1 = 10
-   var str2 = 10
+   tienenMismaLongitud("hola","hola")
   } else (str1 > str2);{
 
   } 
