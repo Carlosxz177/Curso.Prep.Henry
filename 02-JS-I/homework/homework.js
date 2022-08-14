@@ -74,12 +74,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
- 
-  if (40 === 40) {
-   
-  } else (40 > 40);{
-
-  } 
+ console.log(str1 === str2);
+ console.log(str1 > str2);
+ console.log(str1 < str2);
 }
   
 
@@ -88,14 +85,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-}if (21 < 90){
-   
-  } else(21 > 90); {
-   
-
-  }
+console.log(num < 90)
   
-
+}
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
