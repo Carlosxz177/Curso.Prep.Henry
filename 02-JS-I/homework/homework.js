@@ -88,14 +88,14 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-  if (num < 90){
+}if (num < 90){
    
   } else(num > 90); {
    
 
   }
   
-}
+
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
