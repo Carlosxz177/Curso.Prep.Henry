@@ -75,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
  
- } if (tienenMismaLongitud(10,10)) {
+ } if (tienenMismaLongitud(10 === 10)) {
    
   } else (10 > 10);{
 
