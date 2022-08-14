@@ -77,9 +77,9 @@ function tienenMismaLongitud(str1, str2) {
   
  if (5 == 5){
   return true;
+ } else(5 > 5);{
+  return false;
  }
- return false;
-
 }
   
 
