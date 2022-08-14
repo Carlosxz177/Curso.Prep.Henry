@@ -116,11 +116,11 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num(2) ** 2)
+  if(num ** 2)
   {
-  return par  
+  return true  
 }
- return par
+ return false
 }
 
 function esImpar(num) {
@@ -129,9 +129,9 @@ function esImpar(num) {
   // Tu código:
   if(num(3) ** 3)
   {
-    return par
+    return true
   }
-  return Impar
+  return false
 }
 
 function elevarAlCuadrado(num) {
