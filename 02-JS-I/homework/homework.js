@@ -109,7 +109,7 @@ function obtenerResto(x, y) {
   // Tu código:
   if(21 % 5)
   {
-  return obtenerResto(21 % 5)
+  return obtenerResto
 }
  }
 
