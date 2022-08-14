@@ -107,9 +107,9 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  if(x % y)
+  if(21 % 5)
   {
-  return x % y
+  return obtenerResto(21 % 5)
 }
  }
 
