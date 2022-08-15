@@ -155,10 +155,11 @@ function esPrimo(numero) {
  } if (numero === 2 ){
   return true;
  } for ( i = 2 ; i < numero ; i++){
-  if (numero % 1 === 0)
+  if (numero % 1 === 0){
   return true;
  }
   return false;
+ }
 }
 
 function esVerdadero(valor){
