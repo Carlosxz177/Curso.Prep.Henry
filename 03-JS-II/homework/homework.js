@@ -18,7 +18,7 @@ function mayoriaDeEdad(edad) {
   if ( edad >= 18){
   return "Allowed";
   } else {
-    return "not allowed";
+    return "Not allowed";
   }
 }
   
@@ -33,7 +33,7 @@ function conection(status) {
   } else if (status === 2){
       return "Away";
   }
-  else (status !== 1 && status !== 2 );{
+  else {
     return "Offline";
   }
 }
@@ -47,11 +47,11 @@ function saludo(idioma) {
   // Tu código:
   if ( idioma === "aleman"){
     return "guten tag!";
-   } if (idioma === "mandarin"){
+   } else if (idioma === "mandarin"){
     return "Ni hao!";
   } else if (idioma === "ingles"){
      return "Hello!";
-  } else (idioma !== "aleman" || idioma !== "mandarin" || idioma !== "ingles");{
+  } else ;{
      return "Hola";
   }
 }
