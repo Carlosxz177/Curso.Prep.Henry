@@ -210,7 +210,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   var nombre = "carlos";
-  return "Hola" + nombre + "!" ; 
+  return "Hola" + "carlos" + "!" ; 
 
 }
 
