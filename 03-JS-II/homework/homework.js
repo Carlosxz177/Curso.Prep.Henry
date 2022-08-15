@@ -6,21 +6,20 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x > y){
-
-  }
-  return x;
+    return x;
+}
+    return y;
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  if ( edad > 18){
-  console.log("Allowed");
+  if ( edad >= 18){
+  return "Allowed";
   } else {
-    console.log("not allowed");
+    return "not allowed";
   }
-  return edad;
 }
   
 function conection(status) {
@@ -30,14 +29,13 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if (status === 1){
-    console.log("Online");
+    return "Online";
   } else if (status === 2){
-      console.log("Away");
+      return "Away";
   }
   else (status !== 1 && status !== 2 );{
-    console.log("Offline");
+    return "Offline";
   }
-  return status;
 }
 
 function saludo(idioma) {
@@ -48,15 +46,14 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if ( idioma === "aleman"){
-    console.log("guten tag!");
+    return "guten tag!";
    } if (idioma === "mandarin"){
-    console.log("Ni hao!");
+    return "Ni hao!";
   } else if (idioma === "ingles"){
-     console.log("Hello!");
+     return "Hello!";
   } else (idioma !== "aleman" || idioma !== "mandarin" || idioma !== "ingles");{
-     console.log("Hola");
+     return "Hola";
   }
-  return idioma;
 }
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
