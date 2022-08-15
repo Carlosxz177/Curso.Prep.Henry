@@ -168,8 +168,9 @@ function esVerdadero(valor){
   //Escribe tu código aquí
 if (valor === 5){
   return "Soy verdadero"
-}
+ }else {
  return "Soy falso"
+  }
 }
 
 function tablaDelSeis(){
