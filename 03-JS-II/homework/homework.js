@@ -156,9 +156,9 @@ function esPrimo(numero) {
   return true;
  } for ( i = 2 ; i < numero ; i++){
   if (numero % 1 === 0)
-  return false;
- }
   return true;
+ }
+  return false;
 }
 
 function esVerdadero(valor){
