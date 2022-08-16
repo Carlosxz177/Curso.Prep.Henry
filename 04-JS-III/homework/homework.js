@@ -38,7 +38,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  return agregarItemAlFinalDelArray.push[elemento];
+  array[array.length] = elemento
+  return array ;
 }
 
 
@@ -58,6 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  array.push[palabras] = "Hello world"
 }
 
 
