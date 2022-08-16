@@ -59,7 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-   return array.push[palabras] = "Hello world"
+   return palabras.join(" ");
 }
 
 
