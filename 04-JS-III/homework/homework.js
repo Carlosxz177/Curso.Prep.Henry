@@ -222,12 +222,12 @@ function breakStatement(numero) {
   for (var i = 0 ; i < 10 ; i++){
     suma = suma + 2;
     if(suma === i) break ;
-       else{
+       else {
         array.push(suma);
        }
     }
     if (i < 10){
-      return "Se interrumpió la ejecucion"
+      return "Se interrumpió la ejecucion";
     } else {
     return array;
    }
