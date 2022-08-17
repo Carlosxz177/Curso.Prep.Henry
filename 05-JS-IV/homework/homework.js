@@ -59,7 +59,9 @@ function nuevoUsuario(nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var objeto = {
-    usuario : kapoloco
+    nombre : nombre,
+    email : email,
+    password : password
   }
    return objeto;
 }
