@@ -226,7 +226,7 @@ function breakStatement(numero) {
         array.push(suma);
        }
     }
-    if (suma < 10){
+    if (i < 10){
       return "Se interrumpio la ejecucion"
     } else {
     return array;
