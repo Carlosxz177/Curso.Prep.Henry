@@ -10,7 +10,7 @@ function crearGato(nombre, edad) {
   Nombre: nombre,
   edad: edad,
   meow: function(){
-    return "Meow!"
+    return "Meow!";
   }
  };
  return obj;
