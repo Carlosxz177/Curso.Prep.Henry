@@ -246,14 +246,13 @@ function continueStatement(numero) {
   var suma = numero;
   for (var i = 0 ; i < 10 ; i++){
     suma = suma + 2;
-    if(suma === 5) break ;
-       else {
+    if(suma === 5) continue;
+      else {
+        suma = suma + 2;
         array.push(suma);
-       }
+      }
     }
-    if (i > 5){
-      return suma;
-    }
+  return array;
 }
 
 
