@@ -39,6 +39,7 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
+  this.menem = agregarStringInvertida.menem;
   return "menem".this.reverse()
 }
 
