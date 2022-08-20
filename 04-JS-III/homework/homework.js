@@ -152,6 +152,7 @@ function diaDeLaSemana(numeroDeDia) {
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
+  //toString <- Devuelve una cadena de caracteres .
   //Escribe tu código aquí
   let num = n.toString();
   if (num.charAt(0) === "9"){
