@@ -27,9 +27,12 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  cb(numeros + numeros);{
-    return cb;
-  }
+  var numeros =[1,2,3,4,5];
+  var suma = 0;
+   for ( var i = 0 ; i < numeros.length ; i++){
+    suma = suma + numeros[i];
+   }
+   cb(suma);
 }
 
 function forEach(array, cb) {
