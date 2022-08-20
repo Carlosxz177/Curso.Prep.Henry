@@ -30,9 +30,10 @@ function sumarArray(numeros, cb) {
   var numeros =[1,2,3,4,5];
   var suma = 0;
    for ( var i = 0 ; i < numeros.length ; i++){
-    suma = suma + numeros[i];
+   suma = suma + numeros[i];
    }
    cb(suma);
+  
 }
 
 function forEach(array, cb) {
