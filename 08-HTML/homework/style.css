@@ -1,20 +1,38 @@
 h1 {
     color: greenyellow;
 }
+h3 {
+    color: brown;
+}
 
+h4 {
+   color: brown;
+}
 img {
     width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #thirdDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     height: 500px;
     background-color: goldenrod;
     padding: 50px;
     border: solid green 50px ;
+   
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+    display: flex;
+    justify-content: center;
+    color : green;
+    align-items: center;
 }
+
