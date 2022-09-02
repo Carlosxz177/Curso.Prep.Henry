@@ -6,7 +6,11 @@ function devolverPrimerElemento(array) {
 
   // return array[0];
 
-  return array.shift();
+   return array.shift();
+   
+    
+
+    
 }
 
 
@@ -16,8 +20,12 @@ function devolverUltimoElemento(array) {
 
   // return array[array.length -1];
 
-  return array.pop();
+    return array.pop();
+  
 }
+
+     
+
 
 
 function obtenerLargoDelArray(array) {
@@ -40,7 +48,7 @@ function incrementarPorUno(array) {
     nuevoInc.push(array[i] + 1);
   } 
   return nuevoInc;
-  
+
 }
 
 
@@ -51,8 +59,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   
   // array[array.length] = elemento
   // return array;
-  array.push(elemento);
-  return array;
+   array.push(elemento);
+   return array;
+
 }
 
 
@@ -63,6 +72,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Tu código:
   array.unshift(elemento);
   return array; 
+  
+
 }
 
 
@@ -86,7 +97,8 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for (let i = 0; i < array.length ; i++){
+  
+  for (var i = 0; i < array.length ; i++){
   if(array[i] === elemento){
     return true;
    }
@@ -115,7 +127,7 @@ function promedioResultadosTest(resultadosTest) {
    // return agregarNumeros(resultadosTest) / resultadosTest.length;
 
 var suma = 0;
-promedio = 0;
+var promedio = 0;
  for( var i = 0 ; i < resultadosTest.length ; i++){
   suma = suma + resultadosTest[i];
   promedio = suma / resultadosTest.length;
@@ -157,14 +169,24 @@ function multiplicarArgumentos() {
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-  var cont = 0
-  for(var i = 0 ; i < arreglo.length ; i++){
-    if (arreglo[i] > 18){
-    cont++
+  // var cont = 0
+  // for(var i = 0 ; i < arreglo.length ; i++){
+  //   if (arreglo[i] > 18){
+  //   cont++
+  //   }
+  // }
+  // return cont ;
+
+  var acc = 0 ;
+ for (var i = 0 ; i < arreglo.length ; i++){
+    if(arreglo[i] > 18){
+        acc += 1
     }
   }
-  return cont ;
+  return acc  
 }
+  
+
 
 
 function diaDeLaSemana(numeroDeDia) {
@@ -211,8 +233,8 @@ function todosIguales(arreglo) {
   }
  }
  return true;
-} 
 
+}
 
 function mesesDelAño(array) {
   //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de 
@@ -269,10 +291,10 @@ function breakStatement(numero) {
   }
    if (cont === numero){
     return "Se interrumpió la ejecución"
-   } else {
+   } 
     return nuevoArr;
-   }
-
+   
+ 
 //  var nuevoValor = [];
 //   var suma = numero;
 //   for(var i = 0; i < 10 ; i++){
@@ -287,7 +309,6 @@ function breakStatement(numero) {
 //   } else {
 //     return nuevoValor;
 //   }
-
 
 }
 
@@ -321,6 +342,8 @@ function continueStatement(numero) {
   //   }
   // }
   // return nuevoValor;
+
+ 
 }
 
 
