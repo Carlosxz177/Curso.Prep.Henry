@@ -184,6 +184,7 @@ function cuentoElementos(arreglo){
     }
   }
   return acc  
+
 }
   
 
@@ -226,14 +227,19 @@ function todosIguales(arreglo) {
 // }
 //   return true;
 
- var nuevo = arreglo[0];
- for(var i = 0 ; i < arreglo.length ; i++){
-  if(nuevo !== arreglo[i]){
-    return false;
+//  var nuevo = arreglo[0];
+//  for(var i = 0 ; i < arreglo.length ; i++){
+//   if(nuevo !== arreglo[i]){
+//     return false;
+//   }
+//  }
+//  return true;
+for(var i = 0 ; i < arreglo.length ; i++){
+  if(arreglo[0] !== arreglo[i]){
+      return false;
   }
- }
- return true;
-
+}
+return true;
 }
 
 function mesesDelAño(array) {
@@ -320,30 +326,30 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
 
-   var nuevoArr = [];
-   var acc = 0;
-   for(var i = 1 ; i <= 10; i++){
-    if(i === 5){
-      continue;
-    }
-    acc = i;
-    numero += 2; 
-    nuevoArr.push(numero);
-   }
-   return nuevoArr;
-
-  // var nuevoValor = [];
-  // var suma = numero;
-  // for(var i = 0; i < 10 ; i++){
-  //   if(i === 5) continue ;
-  //   else {
-  //     suma += 2;
-  //     nuevoValor.push(suma);
+  //  var nuevoArr = [];
+  //  var acc = 0;
+  //  for(var i = 1 ; i <= 10; i++){
+  //   if(i === 5){
+  //     continue;
   //   }
-  // }
-  // return nuevoValor;
+  //   acc = i;
+  //   numero += 2; 
+  //   nuevoArr.push(numero);
+  //  }
+  //  return nuevoArr;
 
- 
+  var nuevoValor = [];
+  var suma = numero;
+  for(var i = 0; i < 10 ; i++){
+    if(i === 5) continue ;
+    else {
+      suma += 2;
+      nuevoValor.push(suma);
+    }
+  }
+  return nuevoValor;
+
+  
 }
 
 
