@@ -4,7 +4,10 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
- return nombre[0].toUpperCase() + nombre.slice(1)
+
+//  return nombre[0].toUpperCase() + nombre.slice(1)
+var nuevoNombre = nombre[0].toUpperCase() + nombre.substring(1)
+return nuevoNombre;
 }
 
 function invocarCallback(cb) {
@@ -51,9 +54,13 @@ function forEach(array, cb) {
 //  for(var i = 0 ; i < array.length ; i++){
 //    cb(array[i]);
 
- array.forEach(function(arr,nn){
-  cb(arr);
- })
+//  array.forEach(function(arr,nn){
+//   cb(arr);
+//  })
+
+array.forEach(function(b){
+  cb(b);
+})
 }
 
 
@@ -62,7 +69,12 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+    // var array = [1,2,3,4];
+    //  function suma (s){
+    // return suma + 2 }
+    // map ---> .map(function(array,suma))
   
+
   // var nuevoArr = [];
   // for(var i = 0 ; i < array.length ; i++){
   //   nuevoArr.push(cb(array[i]));
@@ -71,8 +83,8 @@ function map(array, cb) {
   // }
   // return nuevoArr;
 
-  var nuevoArr = array.map(function(el){
-    return cb(el);
+  var nuevoArr = array.map(function(elemento){
+    return cb(elemento);
   })
   return nuevoArr;
 }
@@ -82,13 +94,23 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 
-  var nuevoArr = []
- for(var i = 0 ; i < array.length ; i++ ){
-  if(array[i][0] === "a"){
-    nuevoArr.push(array[i])
-  }
+//   var nuevoArr = []
+//  for(var i = 0 ; i < array.length ; i++ ){
+//   if(array[i][0] === "a"){
+//     nuevoArr.push(array[i])
+//   }
+//  }
+//  return nuevoArr;
+
+// var nuevoArr = array.filter(function(a){
+  //  return a[0] === "a"
+  // })
+// return nuevoArr;
+
+function igual(a){
+  return a.charAt(0) === "a";
  }
- return nuevoArr;
+ return array.filter(igual);
 }
 
 // No modificar nada debajo de esta línea
